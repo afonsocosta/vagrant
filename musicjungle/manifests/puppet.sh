@@ -1,3 +1,12 @@
+#!/bin/sh
+set -e -x
+
+if which puppet > /dev/null ; then
+	echo "Puppet is already installed"
+	exit 0
+fi
+
+
 echo "Adding puppet repo"
 sudo apt-get update
 echo "installing puppet"

@@ -1,2 +1,3 @@
 sudo puppet apply /vagrant/manifests/web.pp
 sudo service tomcat7 restart
+ami-dff5d1b3
